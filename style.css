@@ -1,0 +1,98 @@
+body{
+    background-color: white;
+    transition: 0.2s linear;
+    
+}
+.header1 .navbar a{
+    margin:0 1rem;
+    
+    /* background-color: bisque; */
+    text-decoration: none;
+    font-size: 1.6rem;
+    color:white;
+}
+
+.header1 .navbar a:hover{
+    color:red;
+    /* border-bottom: 2rem solid red; */
+    border-bottom: .1rem solid red;
+    padding-bottom: .5rem;
+    
+}
+.header1{
+    border: 2px;
+    background-color: rgb(36, 13, 13);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:1.5rem 7%;
+    border-bottom: var(--border);
+    position: fixed;
+    top : 0; 
+    left: 0; 
+    right: 0;
+    
+}
+.header1 .camlogo img{
+    height: 5rem;
+}
+
+
+.book{
+   
+    text-align: center;
+    color: white;
+    
+    text-decoration: none;
+    border: 2px solid blue;
+    border-radius: 10px;
+    height: 2rem;
+    width: 10rem;
+}
+.book:hover{
+    color: rgb(97, 16, 227);
+    background-color: blanchedalmond;
+    letter-spacing: .5rem;
+}
+.blog{
+    border: 2px soild rgb(187, 152, 152);
+    background-color: blanchedalmond;
+    height: 5rem;
+    width: auto;
+    border-radius: 3px;
+}
+.blog h3{
+    padding-top: .5rem;
+    color: blue;
+}
+.img1,.img2,.img3{
+    border: 2px soild black;
+    border-radius: 2px;
+    width: 27%;
+    display: inline;
+    padding: 15px 16px;
+}
+.img4,.img5,.img6{
+    border: 2px soild black;
+    border-radius: 2px;
+    width: 27%;
+    display: inline;
+    padding: 15px 16px;
+}
+
+footer{
+    background-color: black;
+    border: 2px solid black;
+    padding: 100px;
+}
+.back{
+   
+    background-image: url(https://wallpapercave.com/wp/Ex9MlTC.jpg);
+}
+.f{
+    color: white;
+    width: 25%;
+    display: inline;
+    
+}
+
